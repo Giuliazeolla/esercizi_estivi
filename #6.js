@@ -6,7 +6,11 @@
 */
 
 function even(number) {
-    _
+     if (number % 2 == 0) {
+        return true;
+    }else {
+        return false;
+    }
 }
 
 const x = even(3);
