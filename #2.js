@@ -4,7 +4,7 @@
 */
 
 function sum(a, b) {
-    _
+    return a + b;
 }
 
 const x = sum(3, 5);
