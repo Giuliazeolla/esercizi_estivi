@@ -6,7 +6,7 @@
 */
 
 function split(word) {
-    _
+    return word.split("");
 }
 
 const x = split("Ciao");
