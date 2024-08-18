@@ -5,7 +5,7 @@
 */
 
 function extractSecond(array) {
-    return _;
+    return (array[1]);
 }
 
 const x = extractSecond(['cat', 'dog', "bird"]);
