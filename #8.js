@@ -10,5 +10,5 @@ const object = {
     third: 2,
 };
 
-const two = object[_];
+const two = object["third"];
 console.log(two)// deve stampare numero 2
