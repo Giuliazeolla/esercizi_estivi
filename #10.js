@@ -6,8 +6,11 @@
 */
 
 function accumulate(numbersArray) {
-    _
+        let somma = 0;
+    for (let i = 0; i < numbersArray.length; i++) {
+        somma += numbersArray[i];
+} return somma;
 }
 
-const x = acc([2, 5, 7]);
+const x = accumulate([2, 5, 7]);
 console.log(x); // deve stampare il numero 14
