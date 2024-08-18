@@ -9,7 +9,7 @@ for (let i = 0; i < 2; i++) {
     x += i;
     x = x + i;
 }
-if (x === _) {
+if (x === 2) {
     console.log("Ramo 1 eseguito"); // Questa istruzione deve essere eseguita
 }
 else {
