@@ -4,7 +4,7 @@
 */
 
 const x = 10 % 3;
-if (x === _) {
+if (x === 1) {
     console.log("Ramo 1 eseguito"); // Questa istruzione deve essere eseguita
 }
 else {
