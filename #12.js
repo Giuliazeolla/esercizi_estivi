@@ -5,7 +5,8 @@
 */
 
 function shallowCopy(arr) {
-    _
+    let arraycopy = Array.from(numbers);
+    return arraycopy;
 }
 
 const numbers = [3, 5, 10];
