@@ -5,7 +5,12 @@
 */
 
 function average(numbersArray) {
-    _
+     let somma = 0;
+    let media = 0;
+        for (let i = 0; i < numbersArray.length; i++) {
+        somma += numbersArray[i];
+        media = somma / numbersArray.length;
+} return media;
 }
 
 const x = average([3, 5, 10]);
