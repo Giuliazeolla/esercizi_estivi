@@ -6,7 +6,8 @@
 */
 
 function toString(number) {
-    _
+    let stringa = number.toString();
+    return stringa;
 }
 
 let x = toString(39);
