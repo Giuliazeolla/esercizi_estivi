@@ -5,7 +5,7 @@
 */
 
 function shallowCopy(arr) {
-    _
+    return arr;
 }
 
 const numbers = [3, 5, 10];
