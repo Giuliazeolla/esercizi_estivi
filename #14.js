@@ -16,7 +16,7 @@ const objects = [
     }
 ];
 let picked = [];
-for (_; _; _) {
-    _
+for (let i = 0; i < objects.length; i++) {
+    picked[i] = objects[i];
 }
 console.log(picked); // deve stampare l'array [0, 5, 10]
