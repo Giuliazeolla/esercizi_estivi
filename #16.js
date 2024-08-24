@@ -6,5 +6,5 @@
 */
 
 const name = 'Juliet';
-const greeting = `Hello, ${_}!`;
+const greeting = `Hello, ${name}!`;
 console.log(greeting); // deve stampare la stringa "Hello, Juliet!";
