@@ -6,7 +6,10 @@
 */
 
 function exchange(array) {
-    _
+    const temp = array[0];
+    array[0] = array[1];
+    array[1] = temp;
+    return array;
 }
 const array = [101, 102];
 const exchanged = exchange(array);
