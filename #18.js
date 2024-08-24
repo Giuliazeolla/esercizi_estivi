@@ -11,7 +11,10 @@ const object = {
     b: "World",
     c: "!",
 };
-_
+const translations = {"Hello": "Ciao", "World": "Mondo", "!": "!"};
+for(let key in object){
+    object[key] = translations[objects[key]];
+}
 console.log(object);
 /* deve stampare l'oggetto: {
     a: "Ciao",
