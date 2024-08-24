@@ -15,6 +15,6 @@ function secret(firstArg, secondArg, thirdArg) {
 }
 
 const x = secret(1, 10, "kkk");
-if (x === _) {
+if (x === 9) {
     console.log("Esercizio 20: ramo 1 eseguito");
 }
