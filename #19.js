@@ -13,6 +13,6 @@ const oggettone = {
 const lista = oggettone.lista;
 const primo = lista[0];
 const valore = primo.valore;
-if (valore === _) {
+if (valore === "CHIAVE_SEGRETA") {
     console.log("Esercizio 19: ramo 1 eseguito");
 }
