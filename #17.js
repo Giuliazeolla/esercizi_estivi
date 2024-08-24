@@ -16,5 +16,7 @@ const names = [
     "Andrea",
 ];
 const initials = [];
-_
+for(let i = 0; i < names.length; i++){
+    initials.push(names[i][0]);
+}
 console.log(initials); // deve stampare l'array ["B", "F", "E", "R", "A", "A"]
